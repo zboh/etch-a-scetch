@@ -14,7 +14,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 
 ol, ul {
@@ -28,14 +28,34 @@ img {
 
 /* END of reset */
 
-/* .row {
+body {
+	background: url('./img/artistic-abstract-4k-bg.jpg') no-repeat bottom center;
+	background-size: cover;
+	width: 100vw;
 	height: 100vh;
-} */
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-shadow: lavender 0 0 2px;
+	font-family: cursive, sans-serif;
+}
 
 .playArea {
+	width: 80vw;
 	max-width: 700px;
 }
 
 .gridUnit {
-	background-color: aqua;	
+	background-color: rgb(255, 255, 255);	
+	border: 1px rgb(204, 202, 202) dashed;
+}
+
+.heroText {
+	color: black;
+	font-size: 3rem;
+	margin: 3rem 0;
+	padding: 0.3rem 1.7rem;
+	border-radius: 1rem;
+	background: #91877b;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
 }
